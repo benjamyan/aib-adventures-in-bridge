@@ -361,6 +361,11 @@ body .main {
   border-bottom-right-radius: 40px;
   background: #ffffff;
 }
+body .sub {
+  width: 100%;
+  box-shadow: transparent;
+  background: transparent;
+}
 body .inline h1, body .inline h2, body .inline h3, body .inline h4, body .inline h5, body .inline h6, body .inline p {
   float: left;
 }
@@ -697,15 +702,17 @@ INSERT
 .ins.one-column.cruises h5 span {
   padding-right: 10px;
 }
+.ins.two-column {
+  /*div {
+      Margin-top: -10px;
+      margin-top: -10px;
+  }*/
+}
 .ins.two-column img, .ins.two-column div {
   float: left;
 }
 .ins.two-column h1, .ins.two-column h2, .ins.two-column h3, .ins.two-column h4 h5, .ins.two-column h6, .ins.two-column p {
   text-align: left;
-}
-.ins.two-column div {
-  Margin-top: -10px;
-  margin-top: -10px;
 }
 .ins.two-column .ins-main .item {
   text-align: center;

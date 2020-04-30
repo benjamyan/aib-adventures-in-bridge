@@ -44,6 +44,11 @@ body {
         border-bottom-right-radius: 40px;
         background: $white;
     }
+    .sub {
+        width:100%; 
+        box-shadow: transparent;
+        background: transparent;
+    }
     .inline {
         h1, h2, h3, h4, h5, h6, p {
             float: left;

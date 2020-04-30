@@ -1,0 +1,4 @@
+&clubs;
+&hearts;
+&diams;
+&spades;

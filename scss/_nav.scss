@@ -1,0 +1,88 @@
+/*
+-------------------------------------
+NAVIGATION
+------------------------------------- */
+.nav {
+    width: 100%;
+    &.header {
+        box-sizing: border-box;
+        .nav-main {
+            .nav {
+                &-logo {
+                    /*width: 235px;*/
+                    height: 40px;
+                    display: inline-block;
+                    text-align: left; 
+                    img {
+                        display:block;
+                        font-family: $sans-serif;
+                        font-size: 12px;
+                        color: $grey;
+                    }
+                }
+                &-link {
+                    width: 100%;
+                    display: block;
+                    float: right;
+                    text-align: right;
+                    max-height: 20px;
+                    Margin: 0;
+                    margin: 0;
+                    display: block;
+                    box-sizing: border-box;
+                    text-decoration: none;
+                    img {
+                        /*height:20px;
+                        width:200px;*/
+                        display:block;
+                        font-family: $sans-serif;
+                        font-size: 12px;
+                        color: $grey;
+                    }
+                    p {
+                        font-family: $sans-serif;
+                        font-size: 12px;
+                        width: auto;
+                        height: 20px;
+                        line-height: 20px;
+                        Margin: 0;
+                        margin: 0;
+                        color: $grey;
+                        display: block;
+                        text-decoration: none;
+                        box-sizing: border-box;
+                        vertical-align: top;
+                    }
+                }
+            }
+        }
+    }
+    &.footer {
+        clear: both;
+        text-align: center;
+        .nav-wrapper {
+            td, h6, p, span, a {
+                text-align: center;
+            }
+            .nav-main {
+                a {
+                    p {
+                        width: 33%;
+                        font-family: $sans-serif;
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: black;
+                        text-decoration: none;
+                        Margin-bottom: 0;
+                        margin-bottom: 0;
+                    }
+                    &:first-child {
+                        p {
+                            color: $red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

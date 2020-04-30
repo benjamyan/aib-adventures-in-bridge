@@ -1,0 +1,9 @@
+https://templates.mailchimp.com/getting-started/template-language/
+
+mc:hideable
+ 
+mc:edit="#-#-#" mc:allowdesigner="" mc:allowtext=""
+
+mc:edit="#-#-#" mc:allowdesigner=""
+
+mc:repeatable="#" mc:variant="#_#" 

@@ -1,0 +1,98 @@
+/*
+-------------------------------------
+TYPOGRAPHY
+------------------------------------- */
+h1, h2, h3, h4, h5, h6, p, ul li, ol li, span, strong, sub {
+    Margin: 0;
+    margin: 0;
+    padding: 0;
+    color: $black;
+    mso-line-height-rule:exactly;
+    line-height: normal;
+}
+h1, h2, h3 {
+    mso-font-alt: 'Times New Roman';
+    font-family: $serif;
+    font-weight: bolder;
+    mso-line-height-rule:exactly;
+    line-height: 1.4;
+    text-align: center;
+    /*Margin-bottom: 25px;
+    margin-bottom: 25px;*/
+}
+h4, h5, h6 { 
+    mso-font-alt: 'Arial';
+    font-family: $sans-serif;
+    font-weight: bold;
+    mso-line-height-rule:exactly;
+}
+p, ul, ol {
+    mso-font-alt: 'Times New Roman';
+    font-family: $serif;
+    font-size: 21px;
+    font-weight: normal;
+    letter-spacing: 0.33333px;
+    mso-line-height-rule:exactly;
+    line-height: 30px;
+    /*Margin-bottom: 25px;
+    margin-bottom: 25px;*/
+}
+p li, ul li, ol li { 
+    list-style-position: inside;
+    mso-line-height-rule:exactly;
+    mso-font-alt: 'Times New Roman';
+}
+p span, ul li span, ol li span { 
+    font-weight: bold;
+    mso-line-height-rule:exactly;
+}
+h1 { 
+    font-size: 46px;
+    text-transform: capitalize; 
+}
+h2 { 
+    font-size: 36px;
+}
+h3 {
+    font-size: 25px;
+}
+h4 { 
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 0.333334px;
+    color: $red;
+}
+h5 {
+    font-size: 21px;
+}
+h6 {
+    mso-font-alt: 'Times New Roman';
+    font-family: $serif;
+    font-size: 21px;
+    letter-spacing: 0.666667px;
+}
+p {
+    font-weight: normal;
+}
+sub {
+    font-size: 80%;
+}
+span {
+    font-weight: bolder;
+    &.suit {
+        font-size:110%;
+    }
+}
+strong {
+    font-weight: bolder;
+}
+a { 
+    mso-font-alt: 'Times New Roman';
+    font-family: $serif;
+    mso-line-height-rule:exactly;
+    line-height: normal;
+    color: $red;
+    text-decoration: underline; 
+    span { color: $black; }
+    strong { color: $red; }
+}

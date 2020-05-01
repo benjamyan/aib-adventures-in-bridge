@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6, p, ul li, ol li, span, strong, sub {
     mso-line-height-rule:exactly;
     line-height: normal;
 }
+h1, h2, h3, h4, h5, h6, p, ul li, ol li, span, strong, sub, a {
+    text-decoration: none !important;
+}
 h1, h2, h3 {
     mso-font-alt: 'Times New Roman';
     font-family: $serif;
@@ -17,8 +20,6 @@ h1, h2, h3 {
     mso-line-height-rule:exactly;
     line-height: 1.4;
     text-align: center;
-    /*Margin-bottom: 25px;
-    margin-bottom: 25px;*/
 }
 h4, h5, h6 { 
     mso-font-alt: 'Arial';
@@ -34,8 +35,6 @@ p, ul, ol {
     letter-spacing: 0.33333px;
     mso-line-height-rule:exactly;
     line-height: 30px;
-    /*Margin-bottom: 25px;
-    margin-bottom: 25px;*/
 }
 p li, ul li, ol li { 
     list-style-position: inside;

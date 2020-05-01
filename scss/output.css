@@ -215,6 +215,10 @@ h1, h2, h3, h4, h5, h6, p, ul li, ol li, span, strong, sub {
   line-height: normal;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul li, ol li, span, strong, sub, a {
+  text-decoration: none !important;
+}
+
 h1, h2, h3 {
   mso-font-alt: "Times New Roman";
   font-family: "Playfair Display", Cambria, Utopia, Times, "Times New Roman", serif;
@@ -222,8 +226,6 @@ h1, h2, h3 {
   mso-line-height-rule: exactly;
   line-height: 1.4;
   text-align: center;
-  /*Margin-bottom: 25px;
-  margin-bottom: 25px;*/
 }
 
 h4, h5, h6 {
@@ -241,8 +243,6 @@ p, ul, ol {
   letter-spacing: 0.33333px;
   mso-line-height-rule: exactly;
   line-height: 30px;
-  /*Margin-bottom: 25px;
-  margin-bottom: 25px;*/
 }
 
 p li, ul li, ol li {
@@ -825,41 +825,46 @@ SECTION-SPECIFIC
 -------------------------------------
 QUERIES
 ------------------------------------- */
-/*iPhone 11, XS, SE
+/*iPhone 11, XS, SE*/
 @media only screen and (max-device-width: 740px) {
-    body {
-        h2 {
-            font-size: 300% !important;
-        }
-        h3 {
-            font-size: 250% !important;
-            line-height: normal !important;
-        }
-        h4, h5, p {
-            font-size: 200% !important;
-        }
-        p {
-            line-height: 38px !important;
-        }
-        .main .ins-main {
-            width: 100% !important;
-            strong {
-                font-size: 150% !important;
-                line-height: normal !important;
-            }
-            span {
-                font-size: 150% !important;
-                line-height: 38px !important;
-            }
-        }
-        .ins.two-column img {
-            width: 190px !important;
-            height: 300px !important;
-        }
-        .sub .ms-width-50 {
-            display: none;
-        }
-    }
-}*/
+  body h2 {
+    font-size: 46px !important;
+    line-height: 1 !important;
+  }
+  body h3 {
+    font-size: 32px !important;
+    font-weight: 900;
+    line-height: 1 !important;
+  }
+  body h4 {
+    font-size: 21px !important;
+  }
+  body h5 {
+    font-size: 24px !important;
+  }
+  body p, body ul, body ol {
+    font-size: 26px !important;
+    line-height: 36px !important;
+  }
+  body .main .ins-main {
+    width: 100% !important;
+  }
+  body .main .ins-main strong {
+    line-height: normal !important;
+  }
+  body .main .ins-main span {
+    line-height: 38px !important;
+  }
+  body .sub .ins-main {
+    width: 100% !important;
+  }
+  body .ins.two-column img {
+    width: 190px !important;
+    height: 300px !important;
+  }
+  body .sub .ms-width-50 {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=output.css.map */

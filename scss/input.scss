@@ -338,32 +338,39 @@ SECTION-SPECIFIC
 -------------------------------------
 QUERIES
 ------------------------------------- */
-/*iPhone 11, XS, SE
+/*iPhone 11, XS, SE*/
 @media only screen and (max-device-width: 740px) {
     body {
         h2 {
-            font-size: 300% !important;
+            font-size: 46px !important;
+            line-height: 1 !important;
         }
         h3 {
-            font-size: 250% !important;
-            line-height: normal !important;
+            font-size: 32px !important;
+            font-weight: 900;
+            line-height: 1 !important;
         }
-        h4, h5, p {
-            font-size: 200% !important;
+        h4 {
+            font-size: 21px !important;
         }
-        p {
-            line-height: 38px !important;
+        h5 {
+            font-size: 24px !important;
+        }
+        p, ul, ol {
+            font-size: 26px !important;
+            line-height: 36px !important;
         }
         .main .ins-main {
             width: 100% !important;
             strong {
-                font-size: 150% !important;
                 line-height: normal !important;
             }
             span {
-                font-size: 150% !important;
                 line-height: 38px !important;
             }
+        }
+        .sub .ins-main {
+            width: 100% !important;
         }
         .ins.two-column img {
             width: 190px !important;
@@ -373,4 +380,4 @@ QUERIES
             display: none;
         }
     }
-}*/
+}

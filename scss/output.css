@@ -866,9 +866,6 @@ QUERIES
     height: 100% !important;
     object-fit: cover !important;
   }
-  body .sub .ms-width-50 {
-    display: none;
-  }
   body .btn a {
     font-size: 24px !important;
     padding-top: 25px !important;
@@ -877,6 +874,25 @@ QUERIES
   body .cruises-sub td {
     width: 90% !important;
     padding-left: 15%;
+  }
+  body .ins.ins-main.shop.digital tr.ms-height-50,
+body .ins.ins-main.shop.digital td.ms-width-25 {
+    display: none !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  body .ins.ins-main.shop.digital td {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  body .ins.ins-main.shop.digital td,
+body .ins.ins-main.shop.digital h2,
+body .ins.ins-main.shop.digital h3,
+body .ins.ins-main.shop.digital h4,
+body .ins.ins-main.shop.digital h5,
+body .ins.ins-main.shop.digital p {
+    width: 100% !important;
   }
 }
 

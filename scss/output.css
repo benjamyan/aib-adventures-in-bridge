@@ -837,7 +837,7 @@ QUERIES
     line-height: 1 !important;
   }
   body h4 {
-    font-size: 21px !important;
+    font-size: 30px !important;
   }
   body h5 {
     font-size: 24px !important;
@@ -858,12 +858,25 @@ QUERIES
   body .sub .ins-main {
     width: 100% !important;
   }
+  body .ins.list.hero .ins-main strong, body .ins.list.hero .ins-main span {
+    font-size: 27px !important;
+  }
   body .ins.two-column img {
-    width: 190px !important;
-    height: 300px !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
   }
   body .sub .ms-width-50 {
     display: none;
+  }
+  body .btn a {
+    font-size: 24px !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+  }
+  body .cruises-sub td {
+    width: 90% !important;
+    padding-left: 15%;
   }
 }
 

@@ -338,25 +338,60 @@ SECTION-SPECIFIC
 -------------------------------------
 QUERIES
 ------------------------------------- */
-/*iPhone 11, XS, SE*/
 @media only screen and (max-device-width: 740px) {
     body {
-        h2 {
+        h2,
+        table h2 {
             font-size: 46px !important;
             line-height: 1 !important;
         }
-        h3 {
+        h3,
+        h3 span,
+        table h3,
+        table h3 span,
+        table tbody h3,
+        table tbody h3 span,
+        table tbody tr h3,
+        table tbody tr h3 span,
+        table tbody tr td h3,
+        table tbody tr td h3 span {
             font-size: 32px !important;
             font-weight: 900;
             line-height: 1 !important;
         }
-        h4 {
+        h4,
+        h4 span,
+        table h4,
+        table h4 span,
+        table tbody h4,
+        table tbody h4 span,
+        table tbody tr h4,
+        table tbody tr h4 span,
+        table tbody tr td h4,
+        table tbody tr td h4 span,
+        .ins.one-column h4,
+        .ins.one-column h4 span,
+        .ins.two-column h4,
+        .ins.two-column h4 span,
+        .ins.one-column.cruises tbody tr td h4,
+        .ins.one-column.cruises tbody tr td h4 span {
             font-size: 30px !important;
         }
-        h5 {
+        h5,
+        h5 span,
+        table h5,
+        table h5 span,
+        table tbody h5,
+        table tbody h5 span,
+        table tbody tr h5,
+        table tbody tr h5 span,
+        table tbody tr td h5,
+        table tbody tr td h5 span,
+        .ins tbody tr td h5 span,
+        .ins.two-column.shop tbody tr td h5 span {
             font-size: 24px !important;
         }
-        p, ul, ol {
+        table tbody td tr p, table p, .txt p, .ins p, .ins-main p, .ins .ins-main p, .ins .two-column p, .ins .one-column p, .ins.list p, td p, tr p, p, ul, ol, table tbody td tr p strong, table p strong, .txt p strong, .ins p strong, .ins-main p strong, .ins .ins-main p strong, .ins .two-column p strong, .ins .one-column p strong, .ins.list p strong, td p strong, tr p strong, p strong, ul strong, ol strong, table tbody td tr p span, table p span, .txt p span, .ins p span, .ins-main p span, .ins .ins-main p span, .ins .two-column p span, .ins .one-column p span, .ins.list p span, td p span, tr p span, p span, ul span, ol span {
             font-size: 26px !important;
             line-height: 36px !important;
         }
@@ -387,20 +422,20 @@ QUERIES
             padding-top: 25px !important;
             padding-bottom: 25px !important;
         }
-        .cruises-sub td {
+        table.ins.cruises.cruises-sub tbody tr td {
             width: 90% !important;
-            padding-left: 15%;
+            padding-left: 15% !important;
         }
-        .ins.ins-main.shop.digital tr.ms-height-50,
+        /*.ins.ins-main.shop.digital tr.ms-height-50,
         .ins.ins-main.shop.digital td.ms-width-25 {
             display: none !important;
             height: 0 !important;
             padding: 0 !important;
             margin: 0 !important;
-        }
+        }*/
         .ins.ins-main.shop.digital td {
-            padding-bottom: 25px;
-            margin-bottom: 25px;
+            padding-bottom: 25px !important;
+            margin-bottom: 25px !important;
         }
         .ins.ins-main.shop.digital td,
         .ins.ins-main.shop.digital h2,

@@ -821,6 +821,10 @@ SECTION-SPECIFIC
 -------------------------------------
 QUERIES
 ------------------------------------- */
+.ins.one-column.shop.cruises.cruises-sub h5, .ins.one-column.shop.cruises.cruises-sub p {
+  width: auto !important;
+}
+
 .mobileHotfix2,
 .mobileHotfix1,
 .mobileHotfix2 span,
@@ -830,12 +834,13 @@ QUERIES
 
 @media only screen and (max-device-width: 740px) {
   body table.body > tbody > tr > td:not(.container) {
-    display: none;
+    display: none !important;
   }
   body h2,
 body table h2 {
     font-size: 46px !important;
     line-height: 1 !important;
+    text-decoration: none !important;
   }
   body h3,
 body h3 span,
@@ -850,6 +855,7 @@ body table tbody tr td h3 span {
     font-size: 32px !important;
     font-weight: 900;
     line-height: 1 !important;
+    text-decoration: none !important;
   }
   body h4,
 body h4 span,
@@ -868,6 +874,7 @@ body .ins.two-column h4 span,
 body .ins.one-column.cruises tbody tr td h4,
 body .ins.one-column.cruises tbody tr td h4 span {
     font-size: 30px !important;
+    text-decoration: none !important;
   }
   body h5,
 body h5 span,
@@ -882,13 +889,31 @@ body table tbody tr td h5 span,
 body .ins tbody tr td h5 span,
 body .ins.two-column.shop tbody tr td h5 span {
     font-size: 24px !important;
+    text-decoration: none !important;
   }
   body table tbody td tr p, body table p, body .txt p, body .ins p, body .ins-main p, body .ins .ins-main p, body .ins .two-column p, body .ins .one-column p, body .ins.list p, body td p, body tr p, body p, body ul, body ol, body table tbody td tr p strong, body table p strong, body .txt p strong, body .ins p strong, body .ins-main p strong, body .ins .ins-main p strong, body .ins .two-column p strong, body .ins .one-column p strong, body .ins.list p strong, body td p strong, body tr p strong, body p strong, body ul strong, body ol strong, body table tbody td tr p span, body table p span, body .txt p span, body .ins p span, body .ins-main p span, body .ins .ins-main p span, body .ins .two-column p span, body .ins .one-column p span, body .ins.list p span, body td p span, body tr p span, body p span, body ul span, body ol span {
     font-size: 26px !important;
     line-height: 36px !important;
+    text-decoration: none !important;
   }
-  body .main {
+  body table.main, body table.sub {
     width: 95% !important;
+    margin: 0 auto !important;
+  }
+  body table.main > tr, body table.sub > tr {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+  body table.main .wrapper, body table.sub .wrapper {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+  body table.main .btn, body table.sub .btn {
+    width: 95% !important;
+    max-width: 95% !important;
+  }
+  body table.main .btn td.ms-width-50, body table.sub .btn td.ms-width-50 {
+    display: none !important;
   }
   body .main .ins-main {
     width: 100% !important;
@@ -897,6 +922,7 @@ body .ins.two-column.shop tbody tr td h5 span {
     line-height: normal !important;
   }
   body .main .ins-main span {
+    display: block !important;
     line-height: 38px !important;
   }
   body .sub .ins-main {
@@ -904,6 +930,13 @@ body .ins.two-column.shop tbody tr td h5 span {
   }
   body .ins.list.hero .ins-main strong, body .ins.list.hero .ins-main span {
     font-size: 27px !important;
+  }
+  body .ins.one-column h5 span, body .ins.two-column h5 span {
+    display: block !important;
+  }
+  body .ins.one-column.shop.cruises.cruises-sub h5, body .ins.one-column.shop.cruises.cruises-sub p, body .ins.one-column.shop.cruises.cruises-sub p strong {
+    line-height: 1 !important;
+    margin-bottom: 5px !important;
   }
   body .ins.two-column img {
     width: 100% !important;

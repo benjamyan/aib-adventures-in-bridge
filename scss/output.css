@@ -127,20 +127,6 @@ table {
 RESPONSIVE
 ------------------------------------- */
 @media only screen and (max-width: 620px) {
-  table[class=body] h1 {
-    font-size: 28px !important;
-    margin-bottom: 10px !important;
-  }
-
-  table[class=body] p,
-table[class=body] ul,
-table[class=body] ol,
-table[class=body] td,
-table[class=body] span,
-table[class=body] a {
-    font-size: 16px !important;
-  }
-
   table[class=body] .wrapper,
 table[class=body] .article {
     padding: 10px !important;
@@ -157,7 +143,6 @@ table[class=body] .article {
 
   table[class=body] .main {
     border-left-width: 0 !important;
-    border-radius: 0 !important;
     border-right-width: 0 !important;
   }
 
@@ -821,19 +806,31 @@ SECTION-SPECIFIC
   border-bottom: 1px solid black;
 }
 
+.cruises-main h4 {
+  font-family: "Roboto", Frutiger, Univers, Calibri, Myriad, Tahoma, Geneva, Helvetica, Arial, sans-serif;
+  text-align: center;
+  Margin: 0;
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  color: #CB1414;
+  text-decoration: none;
+}
+
 /*
 -------------------------------------
 QUERIES
 ------------------------------------- */
+.mobileHotfix2,
+.mobileHotfix1,
+.mobileHotfix2 span,
+.mobileHotfix1 span {
+  font-family: "Roboto", Frutiger, Univers, Calibri, Myriad, Tahoma, Geneva, Helvetica, Arial, sans-serif !important;
+}
+
 @media only screen and (max-device-width: 740px) {
-  body {
-    /*.ins.ins-main.shop.digital tr.ms-height-50,
-    .ins.ins-main.shop.digital td.ms-width-25 {
-        display: none !important;
-        height: 0 !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }*/
+  body table.body > tbody > tr > td:not(.container) {
+    display: none;
   }
   body h2,
 body table h2 {
@@ -890,6 +887,9 @@ body .ins.two-column.shop tbody tr td h5 span {
     font-size: 26px !important;
     line-height: 36px !important;
   }
+  body .main {
+    width: 95% !important;
+  }
   body .main .ins-main {
     width: 100% !important;
   }
@@ -930,6 +930,35 @@ body .ins.ins-main.shop.digital h4,
 body .ins.ins-main.shop.digital h5,
 body .ins.ins-main.shop.digital p {
     width: 100% !important;
+  }
+  body .ins.cruises.cruises-main tbody tr td h4 {
+    font-family: "Roboto", Frutiger, Univers, Calibri, Myriad, Tahoma, Geneva, Helvetica, Arial, sans-serif !important;
+  }
+  body .mobileHotfix1, body .mobileHotfix1 span,
+body table .mobileHotfix1,
+body table .mobileHotfix1 span,
+body table tr td .mobileHotfix1,
+body table tr td .mobileHotfix1 span,
+body table tbody tr td .mobileHotfix1,
+body table tbody tr td .mobileHotfix1 span {
+    font-family: "Roboto", Frutiger, Univers, Calibri, Myriad, Tahoma, Geneva, Helvetica, Arial, sans-serif !important;
+    font-size: 24px !important;
+  }
+  body .mobileHotfix2, body .mobileHotfix2 span,
+body table .mobileHotfix2,
+body table .mobileHotfix2 span,
+body table tr td .mobileHotfix2,
+body table tr td .mobileHotfix2 span,
+body table tbody tr td .mobileHotfix2,
+body table tbody tr td .mobileHotfix2 span {
+    font-family: "Roboto", Frutiger, Univers, Calibri, Myriad, Tahoma, Geneva, Helvetica, Arial, sans-serif !important;
+    font-size: 30px !important;
+  }
+  body .mobileHotfix2,
+body .mobileHotfix1,
+body .mobileHotfix2 span,
+body .mobileHotfix1 span {
+    font-family: "Roboto", Frutiger, Univers, Calibri, Myriad, Tahoma, Geneva, Helvetica, Arial, sans-serif !important;
   }
 }
 

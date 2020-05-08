@@ -334,12 +334,35 @@ SECTION-SPECIFIC
         }
     }
 }
+.cruises {
+    &-main {
+        h4 {
+            font-family: $sans-serif;
+            text-align: center;
+            Margin: 0;
+            margin: 0;
+            font-weight: 900;
+            font-size: 24px;
+            color: #CB1414;
+            text-decoration: none;
+        }
+    }
+}
 /*
 -------------------------------------
 QUERIES
 ------------------------------------- */
+.mobileHotfix2, 
+.mobileHotfix1, 
+.mobileHotfix2 span, 
+.mobileHotfix1 span {
+    font-family: $sans-serif !important;
+}
 @media only screen and (max-device-width: 740px) {
     body {
+        table.body > tbody > tr > td:not(.container) {
+            display: none;
+        }
         h2,
         table h2 {
             font-size: 46px !important;
@@ -395,6 +418,9 @@ QUERIES
             font-size: 26px !important;
             line-height: 36px !important;
         }
+        .main {
+            width: 95% !important;
+        }
         .main .ins-main {
             width: 100% !important;
             strong {
@@ -426,13 +452,6 @@ QUERIES
             width: 90% !important;
             padding-left: 15% !important;
         }
-        /*.ins.ins-main.shop.digital tr.ms-height-50,
-        .ins.ins-main.shop.digital td.ms-width-25 {
-            display: none !important;
-            height: 0 !important;
-            padding: 0 !important;
-            margin: 0 !important;
-        }*/
         .ins.ins-main.shop.digital td {
             padding-bottom: 25px !important;
             margin-bottom: 25px !important;
@@ -444,6 +463,28 @@ QUERIES
         .ins.ins-main.shop.digital h5,
         .ins.ins-main.shop.digital p {
             width: 100% !important;
+        }
+        .ins.cruises.cruises-main tbody tr td h4 {
+            font-family: $sans-serif !important;
+        }
+        .mobileHotfix, 
+        table .mobileHotfix,
+        table tr td .mobileHotfix,
+        table tbody tr td .mobileHotfix {
+            &1, &1 span {
+                font-family: $sans-serif !important;
+                font-size: 24px !important;
+            }
+            &2, &2 span {
+                font-family: $sans-serif !important;
+                font-size: 30px !important
+            }
+        }
+        .mobileHotfix2, 
+        .mobileHotfix1, 
+        .mobileHotfix2 span, 
+        .mobileHotfix1 span {
+            font-family: $sans-serif !important;
         }
     }
 }

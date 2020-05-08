@@ -1,4 +1,6 @@
-&clubs;
-&hearts;
-&diams;
-&spades;
+If you want to make the suit symbols color coded accurately, you can copy and paste these suite symbols into your text.
+
+<span style="color:#000000;">&spades;</span>
+<span style="color:#CB1414;">&diams;</span>
+<span style="color:#000000;">&clubs;</span>
+<span style="color:#CB1414;">&hearts;</span>

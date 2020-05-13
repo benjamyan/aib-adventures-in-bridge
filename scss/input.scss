@@ -63,7 +63,6 @@ BUTTONS
             text-align:center; 
             letter-spacing: 1px;
             text-decoration: none;
-            text-transform: capitalize;
             color: $white;
             background-color: $red;
             cursor: pointer;
@@ -521,6 +520,21 @@ QUERIES
         .mobileHotfix2 span, 
         .mobileHotfix1 span {
             font-family: $sans-serif !important;
+        }
+        .auctions {
+            h5 {
+                font-size: 21px !important;
+            }
+            .ms-width-50 {
+                width: 25px !important;
+            }
+        }
+        .hands {
+            h4, h5, p, a {
+                span {
+                    display: inline-block !important;
+                }
+            }
         }
     }
 }

@@ -592,7 +592,6 @@ BUTTONS
   text-align: center;
   letter-spacing: 1px;
   text-decoration: none;
-  text-transform: capitalize;
   color: #ffffff;
   background-color: #CB1414;
   cursor: pointer;
@@ -992,6 +991,15 @@ body .mobileHotfix1,
 body .mobileHotfix2 span,
 body .mobileHotfix1 span {
     font-family: "Roboto", Frutiger, Univers, Calibri, Myriad, Tahoma, Geneva, Helvetica, Arial, sans-serif !important;
+  }
+  body .auctions h5 {
+    font-size: 21px !important;
+  }
+  body .auctions .ms-width-50 {
+    width: 25px !important;
+  }
+  body .hands h4 span, body .hands h5 span, body .hands p span, body .hands a span {
+    display: inline-block !important;
   }
 }
 

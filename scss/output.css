@@ -998,7 +998,7 @@ body .mobileHotfix1 span {
   body .auctions .ms-width-50 {
     width: 25px !important;
   }
-  body .hands h4 span, body .hands h5 span, body .hands p span, body .hands a span {
+  body .auctions h4 span, body .auctions h5 span, body .auctions p span, body .auctions a span, body .hands h4 span, body .hands h5 span, body .hands p span, body .hands a span {
     display: inline-block !important;
   }
 }
